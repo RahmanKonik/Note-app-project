@@ -39,7 +39,7 @@ createButton.addEventListener("click", ()=>{
 createContainer.addEventListener("click", function(e){
     if(e.target.tagName === "IMG"){
         e.target.parentElement.remove();
-        updateStorage()
+        updateStorage();
     }
     else if (e.target.tagName === "P"){
         createInputBox = document.querySelectorAll(".input-box");
